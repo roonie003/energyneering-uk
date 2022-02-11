@@ -230,6 +230,9 @@ img {
         height: 120px;
         padding: 20px;
     }
+    .navbar.top {
+        height: 140px;
+    }
 
     .navbar a {
         padding: 10px 10px;
