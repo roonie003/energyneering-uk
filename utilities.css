@@ -15,8 +15,12 @@
     border-radius: 5px;
 }
 
-.btn:hover {
+.btn-primary:hover {
     opacity: 0.9;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    transition: all 1s ease-in;
 }
 
 .bg-secondary{
@@ -24,10 +28,16 @@
     color: #fff;
 }
 
-.btn-primary, .bg-primary {
+.bg-primary {
    background: #28a745;
    color: #fff;
 }
+
+.btn-primary {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+} 
 
 .btn-dark, .bg-dark {
    background: #333;

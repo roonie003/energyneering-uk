@@ -146,16 +146,21 @@ img {
 
 /* Callback form */
 .contact{
-    background:linear-gradient(55deg, #29AA57,#ead6ee, #29AA57) ;
-    height: 60vh;
+    background:url('/images/rawfilm-4y2TkE8NYXY-unsplash.jpg') right bottom;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 20px;
+    padding: 40px;
 }
 
+.back{
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+}
 
 /* Footer */
 .footer {
@@ -165,7 +170,7 @@ img {
     justify-content: center;
     text-align: center;
     height: 30px;
-    padding-top: 10px;
+    padding: 20px;
 }
 
 .footer a {
@@ -203,4 +208,22 @@ img {
     .team img {
         width: 70%;
     }
+
+    .contact {
+        height: 100vh;
+    }
+
+    .contact h2{
+        padding-top: 40px;
+    }
+
+    .back{
+        height:min-content;
+        padding-bottom: 40px;
+    }
+
+    .footer {
+        padding-top: 30px;
+    }
+
 }
