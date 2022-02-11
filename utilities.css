@@ -15,9 +15,14 @@
     border-radius: 5px;
 }
 
+.fas , .far {
+    padding-right: 10px;
+    color: #29AA57;
+
+}
 .btn-primary:hover {
     opacity: 0.9;
-    background: #28a745;
+    background: #29AA57;
     color: #fff;
     border: none;
     transition: all 1s ease-in;
@@ -29,7 +34,7 @@
 }
 
 .bg-primary {
-   background: #28a745;
+   background: #29AA57;
    color: #fff;
 }
 
@@ -88,6 +93,7 @@
 .flex-columns .column .column-1,
 .flex-columns .column .column-2 {
     height: 100%;
+ 
 }
 
 .flex-columns img {
@@ -140,7 +146,7 @@
 .flex-grid .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 30px;
 }
 
 .flex-grid .column {
